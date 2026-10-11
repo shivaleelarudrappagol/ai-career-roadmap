@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>🤖 AI Career Roadmap | Student Career Guide</title>
+  <style>
+body {
+    font-family: Arial, sans-serif;
+    background: #eef4ff;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #2b4c9b;
+    font-size: 35px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 35px;
+}
+
+select {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+    input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 8px;
+    }
+    input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #2b4c9b;
+}
+
+button {
+    padding: 12px 18px;
+    margin-left: 8px;
+    background: #2b4c9b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+    button:hover {
+    transform: scale(1.05);
+    }
+    
+button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+#result {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+    #result {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+    #result h2 {
+    background: #eef4ff;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+#result p {
+    padding: 8px;
+}
+    @media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input,
+    select,
+    button {
+        width: 90%;
+        margin: 8px auto;
+    }
+
+    #result {
+        padding: 15px;
+    }
+    }
+    .dark-mode {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+    color: #90caf9;
+}
+    .dark-mode .about {
+    background: #2b2b2b;
+    color: white;
+    }
+    .about {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.dark-mode .about {
+    background: #2b2b2b;
+    color: white;
+}
+    
+#loginMessage {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+    
+#loginMessage,
+#registerMessage {
+    padding: 10px;
+    border-radius: 8px;
+    background: #f0f8ff;
+}
+
+    #registerMessage {
+color: green;
+font-weight: bold;
+font-size: 18px;
+margin-top: 15px;
+    }
+
+
+input[type="email"],
+input[type="password"],
+#regName,
+#studentName,
+#skills {
+    padding: 12px;
+    width: 80%;
+    max-width: 350px;
+    border: 2px solid #2b4c9b;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+select {
+    padding: 12px;
+    width: 80%;
+    max-width: 350px;
+    border: 2px solid #2b4c9b;
+    border-radius: 8px;
+    margin: 8px;
+    background: white;
+    font-size: 16px;
+}
+
+    
+
+button {
+    background: #2b4c9b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b326b;
+}
+
+input,
+select {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #2b4c9b;
+    margin-top: 30px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #16a085;
+    box-shadow: 0 0 5px rgba(22, 160, 133, 0.4);
+}
+
+  </style>
+</head>
+<body>
+  
+<button onclick="document.body.classList.toggle('dark-mode')">
+    🌙 Dark Mode
+</button>
+
+    
+<button onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    ⬆️ Go to Top
+</button>
+
+
+
+    <h1>🤖 AI Career Roadmap</h1>
+  <p style="color:#2b4c9b; font-weight:bold;">
+🚀 Your Future, Your Career, Your Success!
+  </p>
+  
+<h3 style="color:#2b4c9b;">
+    🌟 Welcome to Your Future!
+</h3>
+  
+<div style="background:linear-gradient(135deg,#2b4c9b,#7c4dff); color:white; padding:20px; border-radius:15px; margin:15px 0;">
+    <h2 style="color:white;">🚀 Build Your Dream Career!</h2>
+    <p>Discover your interests, learn new skills, and take the next step toward your future.</p>
+</div>
+
+<p>Discover your skills, explore careers and build your dream future.</p>
+
+    <p>Find the right career path for you</p>
+ 
+<h2>🔍 Explore Careers</h2>
+<input type="text" id="careerSearch" placeholder="Search career...">
+<button onclick="searchCareer()">Search</button>
+<p id="searchResult"></p>
+
+<h2>🔐 Student Login & Registration</h2>
+  <input type="email" id="loginEmail" placeholder="Enter your email">
+
+<br><br>
+
+<input type="password" id="loginPassword" placeholder="Enter your password">
+<button type="button" onclick="togglePassword('loginPassword')">
+    👁️ Show / Hide Password
+</button>
+<br><br>
+
+<button onclick="studentLogin()">🔑 Student Login</button>
+ <h3>📝 New Student Registration</h3>
+
+<input type="text" id="regName" placeholder="Enter your name">
+
+<br><br>
+
+<input type="email" id="regEmail" placeholder="Enter your email">
+
+<br><br>
+
+<input type="password" id="regPassword" placeholder="Create password">
+
+<button type="button" onclick="togglePassword('regPassword')">
+    👁️ Show / Hide Password
+</button>
+
+
+
+<br><br>
+
+<button onclick="studentRegister()">📝 Register</button>
+
+<p id="loginMessage"></p>
+<p id="registerMessage"></p>
+
+  <h2>Student Details</h2>
+
+<input type="text" id="studentName" placeholder="Enter your name">
+  <h2>Course</h2>
+
+<select id="course">
+    <option value="">Select Course</option>
+    <option value="BCA">BCA</option>
+    <option value="BCom">BCom</option>
+    <option value="BA">BA</option>
+    <option value="BSc">BSc</option>
+</select>
+<h2>Choose Your Interest</h2>
+
+<select id="interest">
+    <option value="">Select Interest</option>
+    <option value="coding">💻 Coding</option>
+    <option value="design">🎨 Design</option>
+    <option value="data">📊 Data</option>
+</select>
+  
+<h2>Your Skills</h2>
+<input type="text" id="skills" placeholder="Example: Python, Java, SQL">
+<button onclick="showCareer()">Get Career Roadmap</button>
+  
+<p id="loadingMessage" style="color:#2b4c9b;"></p>
+
+  <button onclick="resetForm()">🔄 Clear Form</button>
+<div id="result"></div>
+  <script>
+function showCareer() {
+
+    let name = document.getElementById("studentName").value;
+    let course = document.getElementById("course").value;
+    let interest = document.getElementById("interest").value;
+    let skills = document.getElementById("skills").value;
+
+    let result = document.getElementById("result");
+  document.getElementById("loadingMessage").innerText =
+    "🤖 Creating your career roadmap...";
+
+    if (name === "" || course === "" || interest === "" || skills === "") {
+    document.getElementById("loadingMessage").innerText = "";
+      result.innerHTML = "<h3>Please fill all details</h3>";
+    return;
+    }
+
+    let roadmap = "";
+let career = "";
+let match = 90;
+
+  if (skills.toLowerCase().includes("python")) {
+    match += 3;
+}
+
+if (skills.toLowerCase().includes("java")) {
+    match += 3;
+}
+
+if (skills.toLowerCase().includes("sql")) {
+    match += 2;
+}
+
+if (match > 100) {
+    match = 100;
+}
+
+if (interest === "coding") {
+    career = "Software Developer";
+} else if (interest === "design") {
+    career = "UI/UX Designer";
+} else if (interest === "data") {
+    career = "Data Analyst";
+}
+
+let jobs = "";
+if (interest === "coding") {
+    jobs = "Software Developer, Web Developer, Python Developer";
+} else if (interest === "design") {
+    jobs = "UI/UX Designer, Graphic Designer, Web Designer";
+} else if (interest === "data") {
+    jobs = "Data Analyst, Data Entry Analyst, Junior Data Analyst";
+}
+if (interest === "coding") {
+    roadmap = `
+
+  
+        <h2>🚀 Coding Career Roadmap</h2>
+        <p><b>Step 1:</b> Learn Python / Java</p>
+        <p><b>Step 2:</b> Learn Data Structures</p>
+        <p><b>Step 3:</b> Learn Web Development</p>
+        <p><b>Step 4:</b> Learn DBMS & SQL</p>
+        <p><b>Step 5:</b> Build Projects</p>
+        <p><b>Step 6:</b> Learn Git & GitHub</p>
+        <p><b>Step 7:</b> Prepare for Placements</p>
+        `;
+
+    } else if (interest === "design") {
+        roadmap = `
+        <h2>🎨 Design Career Roadmap</h2>
+        <p><b>Step 1:</b> Learn UI/UX basics</p>
+        <p><b>Step 2:</b> Learn Figma</p>
+        <p><b>Step 3:</b> Learn Graphic Design</p>
+        <p><b>Step 4:</b> Create Projects</p>
+        <p><b>Step 5:</b> Build Portfolio</p>
+        `;
+
+    } else if (interest === "data") {
+        roadmap = `
+        <h2>📊 Data Career Roadmap</h2>
+        <p><b>Step 1:</b> Learn Python</p>
+        <p><b>Step 2:</b> Learn Excel</p>
+        <p><b>Step 3:</b> Learn SQL</p>
+        <p><b>Step 4:</b> Learn Data Visualization</p>
+        <p><b>Step 5:</b> Build Data Projects</p>
+        `;
+
+    }
+
+    result.innerHTML = `
+        <h2>👋 Welcome, ${name}!</h2>
+        <p><b>Course:</b> ${course}</p>
+        <p><b>Your Skills:</b> ${skills}</p>
+        
+<h2>📊 Roadmap Progress</h2>
+
+<div style="width:100%; background:#ddd; border-radius:20px; overflow:hidden;">
+    <div style="width:40%; background:#4CAF50; color:white; padding:10px 0; border-radius:20px;">
+        40% Completed 🚀
+    </div>
+</div>
+
+        <p>Progress: Roadmap started successfully 🎉</p>
+        <h2>🎯 Career Match: ${match}%</h2>
+        <p>🤖 AI Recommendation: Your interests and skills match this career path.</p>
+
+        <h2>🤖 AI Career Recommendation</h2>
+<p><b>Recommended Career:</b> ${career}</p>
+<p><b>Career Match:</b> ${match}% 🎯</p>
+<p>💡 <b>Why this career?</b> Your selected interest and skills are suitable for this career path.</p>
+
+<p><b>🌟 Personal Career Advice:</b></p>
+<p>Keep practicing your skills every day, complete real-world projects, and learn from your mistakes. Your consistency will help you grow in your chosen career! 🚀</p>
+
+<h2>🎯 Your Career Goal</h2>
+
+<div style="background:#eef4ff; padding:15px; border-radius:12px; margin:15px;">
+    <h3>🌐 Share Your Learning Journey</h3>
+    <p>🚀 Keep learning, building projects and improving your skills!</p>
+    <button onclick="navigator.share ? navigator.share({title:'AI Career Roadmap', text:'Explore my career learning journey!'}) : alert('Sharing is not supported on this device.')">
+        📤 Share My Journey
+    </button>
+</div>
+
+
+<div style="background:#eef4ff; padding:15px; border-radius:12px; margin:15px;">
+    <h3>🌟 My Future Goal</h3>
+    <p>🎯 Choose your career and work towards it every day.</p>
+    <p>📚 Learn new skills and improve your knowledge.</p>
+    <p>💻 Build projects and gain practical experience.</p>
+    <p>🏆 Keep learning to achieve your dream career!</p>
+</div>
+
+        
+<p>Become a ${career}</p>
+<p>Build strong skills, complete projects and prepare for placements.</p>
+<h2>📈 Skills Improvement</h2>
+<p>💻 Improve technical skills</p>
+<p>🧠 Practice problem solving</p>
+<p>🛠️ Build more projects</p>
+<p>🎯 Prepare for interviews</p>
+<p>💼 Recommended Jobs: ${jobs}</p>
+
+<h2>💼 Job Preparation</h2>
+<p>📄 Create a good Resume</p>
+<p>💻 Build a GitHub Profile</p>
+<p>🛠️ Add Projects to your Portfolio</p>
+<p>🎤 Practice Interview Questions</p>
+<h2>📅 90 Days Action Plan</h2>
+
+<p>🟢 Days 1–30: Learn basic ${career} skills</p>
+<p>🟡 Days 31–60: Practice skills and build small projects</p>
+<p>🔵 Days 61–90: Build a real project and prepare for jobs</p>
+<p>🏆 Goal: Become Job-Ready in 90 Days 🚀</p>
+<h2>📅 Weekly Learning Goals</h2>
+<p>Week 1–2: Learn the basics</p>
+<p>Week 3–4: Practice regularly</p>
+<p>Week 5–8: Build projects</p>
+<p>Week 9–12: Prepare for jobs</p>
+<h2>🏆 Achievement Goal</h2>
+<p>⭐ Complete 3 Projects</p>
+<p>⭐ Improve Technical Skills</p>
+<p>⭐ Build a Strong Portfolio</p>
+<p>⭐ Become Job-Ready 🚀</p>
+
+
+<h2>✅ Career Checklist</h2>
+
+<label><input type="checkbox"> Learn required skills</label><br>
+<label><input type="checkbox"> Practice coding</label><br>
+<label><input type="checkbox"> Complete projects</label><br>
+<label><input type="checkbox"> Create Resume</label><br>
+<label><input type="checkbox"> Prepare for Interviews</label><br>
+<label><input type="checkbox"> Apply for Jobs</label><br>
+
+<h2>🌟 Motivation</h2>
+<p>💪 Believe in yourself and keep learning.</p>
+<p>🚀 Small steps every day lead to big success!</p>
+<p>🎯 Your career journey starts today.</p>
+<button onclick="navigator.share ? navigator.share({title:'AI Career Roadmap', text:'Check my AI Career Roadmap! 🚀'}) : alert('Share is not supported on this device.')">
+    📤 Share Roadmap
+</button>
+
+<button onclick="window.print()">
+    🖨️ Print Roadmap
+</button>
+<button onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    ⬆️ Back to Top
+</button>
+
+<h2>⭐ Your Skills Score</h2>
+
+<h3>📈 Keep Improving!</h3>
+<p>🌱 Beginner: Learn the basics of your chosen career.</p>
+<p>🚀 Intermediate: Practice regularly and build projects.</p>
+<p>🏆 Advanced: Create real-world projects and prepare for interviews.</p>
+<p>💡 Tip: Track your progress every week!</p>
+
+<p>🎯 Career Match: ${match}%</p>
+<p>💻 Technical Skills: ${skills ? "⭐⭐⭐⭐☆" : "☆☆☆☆☆"}</p>
+<p>🧠 Problem Solving: ⭐⭐⭐☆☆</p>
+<p>🚀 Projects: ⭐⭐⭐☆☆</p>
+<p>📚 Learning: ⭐⭐⭐⭐☆</p>
+
+
+<h2>📚 Learning Resources</h2>
+
+<div style="background:#eef4ff; padding:15px; border-radius:12px; margin:15px;">
+    <h3>🌐 Free Learning Websites</h3>
+    <p>🐍 Python: <a href="https://www.w3schools.com/python/" target="_blank">Learn Python</a></p>
+    <p>☕ Java: <a href="https://www.w3schools.com/java/" target="_blank">Learn Java</a></p>
+    <p>🗄️ SQL: <a href="https://www.w3schools.com/sql/" target="_blank">Learn SQL</a></p>
+    <p>💻 HTML & CSS: <a href="https://www.w3schools.com/html/" target="_blank">Learn Web Development</a></p>
+</div>
+
+<p>📺 Video Courses – Learn through beginner-friendly tutorials</p>
+<p>💻 Coding Practice – Practice programming regularly</p>
+<p>📚 Documentation – Read official learning materials</p>
+<p>🛠️ Project Ideas – Build practical projects</p>
+
+<p>🎯 Career Practice – Prepare for interviews and jobs</p>
+<p>🌟 Tip: Learn, Practice, Build and Improve Every Day!</p>
+
+
+<h2>🎓 Career Achievement Certificate</h2>
+<div style="border:3px solid #2b4c9b; padding:20px; border-radius:15px; background:#eef4ff;">
+    <h3>🏆 Certificate of Achievement</h3>
+    <p>Congratulations on taking the first step toward your career!</p>
+    <p>Complete your roadmap and keep learning every day.</p>
+    <p>🌟 Your future starts with your effort!</p>
+    <button onclick="window.print()">🖨️ Print Certificate</button>
+</div>
+
+<h2>🎓 Final Career Summary</h2>
+
+<p><b>Career:</b> ${career}</p>
+<p><b>Focus:</b> ${career} skills and practical projects</p>
+<p><b>Goal:</b> Become a Job-Ready ${career}</p>
+<p>📈 Next Step: Keep learning and build real-world projects.</p>
+
+<h3>🚀 Keep Learning & Keep Building!</h3>
+<p>Your journey starts today. All the best! 🎉</p>
+<button onclick="location.reload()">🔄 Start Again</button>
+<button onclick="window.print()">📄 Download / Print Roadmap</button>
+<h2>🤖 AI Career Tips</h2>
+<p>✨ Smart Tip: Use AI as a learning assistant, not as a replacement for learning.</p>
+
+<p>🤖 Use AI tools to improve your learning.</p>
+<p>💡 Practice your career skills every day.</p>
+<p>🛠️ Build projects to gain practical experience.</p>
+<p>📁 Keep your resume and portfolio updated.</p>
+<p>🎯 Prepare regularly for interviews and placements.</p>
+<h2>⭐ Your Feedback</h2>
+
+<p>Was this roadmap helpful?</p>
+
+<select id="rating" onchange="document.getElementById('ratingMessage').innerText='Thank you for your feedback! ⭐';">
+    <option value="">Rate your experience</option>
+    <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+    <option value="4">⭐⭐⭐⭐ Good</option>
+    <option value="3">⭐⭐⭐ Average</option>
+    <option value="2">⭐⭐ Needs Improvement</option>
+    <option value="1">⭐ Poor</option>
+</select>
+<p id="ratingMessage">⭐ Your feedback helps us improve this roadmap!</p>
+
+<button onclick="document.getElementById('ratingMessage').innerText='Thank you! We are glad this roadmap was helpful. 😊'">
+    👍 Yes, Helpful
+</button>
+
+<button onclick="document.getElementById('ratingMessage').innerText='Thank you! We will improve the roadmap. 💚'">
+    👎 Need Improvement
+</button>
+        ${roadmap}
+    `;
+}
+    function resetForm() {
+      if (!confirm("Are you sure you want to clear all details?")) {
+    return;
+      }
+    document.getElementById("studentName").value = "";
+    document.getElementById("course").value = "";
+    document.getElementById("interest").value = "";
+    document.getElementById("skills").value = "";
+    document.getElementById("result").innerHTML = "";
+    }
+    
+function togglePassword(id) {
+    let passwordField = document.getElementById(id);
+
+    if (passwordField.type === "password") {
+        passwordField.type = "text";
+    } else {
+        passwordField.type = "password";
+    }
+}
+
+    
+function studentLogin() {
+    let email = document.getElementById("loginEmail").value.trim();
+    let password = document.getElementById("loginPassword").value;
+
+    if (email === "" || password === "") {
+        document.getElementById("loginMessage").style.color = "red";
+        document.getElementById("loginMessage").innerText =
+            "⚠️ Please enter email and password!";
+    } else {
+        document.getElementById("loginMessage").style.color = "green";
+        document.getElementById("loginMessage").innerText =
+            "🎉 Welcome! Login demo successful.";
+    }
+}
+
+      
+
+
+
+
+function studentRegister() {
+    let name = document.getElementById("regName").value.trim();
+    let email = document.getElementById("regEmail").value.trim();
+    let password = document.getElementById("regPassword").value;
+
+    let message = document.getElementById("registerMessage");
+    message.style.color = "red";
+    if (name === "" || email === "" || password === "") {
+        message.innerText = "⚠️ Please fill all registration details!";
+    } else if (!email.includes("@") || !email.includes(".")) {
+        message.innerText = "⚠️ Please enter a valid email address!";
+    } else if (password.length < 6) {
+        message.innerText = "⚠️ Password must contain at least 6 characters!";
+    } else {
+      message.style.color = "green";
+        message.innerText = "🎉 Registration successful! Welcome to AI Career Roadmap.";
+
+        document.getElementById("regName").value = "";
+     document.getElementById("loginEmail").value = email;
+      document.getElementById("regEmail").value = "";
+        document.getElementById("regPassword").value = "";
+    }
+}
+
+
+function searchCareer() {
+
+let career = document.getElementById("careerSearch").value.trim().toLowerCase();
+let result = document.getElementById("searchResult");
+
+if (career === "") {
+    result.innerHTML = "⚠️ Please enter a career name.";
+} else if (career.includes("developer") || career.includes("coding")) {
+    result.innerHTML = "<h3>💻 Software Developer</h3><p>Learn Python, Java, HTML, CSS and JavaScript.</p><p>Jobs: Software Developer, Web Developer</p>";
+} else if (career.includes("designer") || career.includes("design")) {
+    result.innerHTML = "<h3>🎨 UI/UX Designer</h3><p>Learn Figma, design basics and user experience.</p><p>Jobs: UI/UX Designer, Web Designer</p>";
+} else if (career.includes("analyst") || career.includes("data")) {
+    result.innerHTML = "<h3>📊 Data Analyst</h3><p>Learn Excel, SQL, Python and data visualization.</p><p>Jobs: Data Analyst, Junior Data Analyst</p>";
+} else {
+    result.innerHTML = "❌ Career not found. Try Developer, Designer or Analyst.";
+}
+
+    }
+</script>
+
+  
+<button onclick="window.location.href='mailto:rudrappagolshivalelila@gmail.com'">
+    📧 Send Email
+</button>
+
+  </div>
+  
+  <div class="about">
+  <h2>🤖 About AI Career Roadmap</h2>
+    <p>
+         AI Career Roadmap helps students discover suitable career
+paths based on their course, interests and skills.
+    </p>
+    <p>
+        It provides career suggestions, skills to learn, job roles,
+        learning resources and a 90-day action plan.
+    </p>
+    <p>💡 Made to help students plan their career journey step by step.</p>
+  </div>
+
+<footer style="margin-top:30px; padding:20px; background:#2b4c9b; color:white; border-radius:10px;">
+<p>🤖 AI Career Roadmap</p>
+<p>Created for Students 🎓</p>
+<p>© 2026 All Rights Reserved</p>
+</footer>
+</body>
+</html>
